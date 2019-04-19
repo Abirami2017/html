@@ -1,0 +1,54 @@
+<!doctype html>
+<head>
+    <title> facebook </title>
+</head>
+<body background="/home/it2/Desktop/a.png" vlink="white">
+    <table cellspacing="0">
+    <tr bgcolor="#3155bc">
+        <td width ="80%"><font size= "8" color ="white">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; facebook</font></td>
+        <td width ="5%"><label><font size= "2" color ="white">Username or mobile number <input type="text" autocomplete ="on"></font></label></td>
+        <td width ="5%"><label><font size= "2" color ="white">Password <input type="password" autocomplete ="on"></font></label></td>
+        <td width ="5%"><font size= "2" color ="white"><object align="middle"><a href=login.html>LogIn</a></object></td>
+    </tr>
+    <tr bgcolor="#3155bc">
+        <td colspan="4"><font size="2"><object align="right"><a href=password.html>Forgotten account?</a></object></font></td>
+    </tr>
+    </table>
+    <table>
+    <br><br>
+    <tr>
+        <td width ="60%"></td>
+        <td><center><b><h1>Create a new Account</h1></b></center>
+        <form method="post" target="login.html">
+        <input type= "email" autocomplete= "on" name="fname" placeholder="Email id" size="35"><br><br>
+        <input type= "text" autocomplete= "on" name="fname" placeholder="First Name" size="15">
+        <input type= "text" autocomplete= "on" name="lname" placeholder="Last Name" size="12"><br><br>
+        <input type= "date" name="dob">
+        <input type= "text" name="age" placeholder="Age" size="2"><br><br>
+        <input type= "text" name="phone" placeholder="Mobile Number" pattern="[0-9]{10}" title="Input only numbers" size="15"><br><br>
+        <input type= "text" name="locality" placeholder="Place">
+        <select>
+            <option value="Select">Gender</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            <option value="Transgender">Transgender</option>
+            </select><br><br>
+        <input type= "password" name="password" placeholder="Password" size="15" pattern= "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+        <input type= "checkbox" name="robot" required> I am not a Robot<br><br>
+        <center>
+        <input type ="reset" name="reset">
+        <input type ="submit" name="submit" value="submit">
+        </center>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer>
+              English
+             <h5> Facebook &copy; 2019</h5>
+    </footer>
+    </body>
+    </html>
